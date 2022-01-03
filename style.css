@@ -31,4 +31,9 @@ section{
     background-repeat: no-repeat;
 
 }
+.drime-big{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
