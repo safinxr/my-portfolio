@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .my-name{
     color:orange
 }
-section{
+.fx{
     display: flex;
 }
 .half-width{
@@ -35,5 +38,37 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.bw{
+    box-shadow: 10px 10px 40px gray;
+    margin: 5% 3%;
+    width:40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+p{
+    text-align: justify;
+}
+.last{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#elast{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:1 ;
+}
+#elast2{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato );
+    border-image-slice:1 ;
+} 
+footer p{
+    text-align: center;
+}
+.pad{
+    margin-left: 3%;
 }
 
